@@ -70,25 +70,6 @@ body {
     color: var(--activation-color);
 }
 
-/* Подвал */
-.footer {
-    background-color: var(--footer-background-color);
-}
-
-.footer .address {
-    color: var(--background-color);
-    font-style: normal;
-}
-
-.footer-contacts {
-    list-style: none;
-}
-
-.footer-contacts .link {
-    color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
-}
-
 /* index */
 /* Шапка */
 .hero{
@@ -190,4 +171,29 @@ body {
 
 .projects .list-text{
     line-height: 30px;
+}
+
+/* Подвал */
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+.footer .address {
+    color: var(--background-color);
+    font-style: normal;
+}
+
+.footer-contacts {
+    list-style: none;
+}
+
+.footer-contacts .link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footer-contacts .link:hover,
+.footer-contacts .link:focus{
+    color: var(--activation-color);
 }
