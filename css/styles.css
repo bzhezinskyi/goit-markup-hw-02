@@ -8,9 +8,17 @@
 /* Колір посилань футер rgba(255, 255, 255, 0.6); */
 
 :root {
-
+--text-color:#212121;
+--additional-text-color: #757575;
+--background-color: #ffffff;
+--additional-background-color: #F5F4FA;
+--footer-background-color: #2F303A;
+--logo-color: #000000;
+--activation-color: #2196F3;
+--footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-    background-color: #ffffff;
+    font-family: 'Roboto';
+    color: var(--text-color);
 }
